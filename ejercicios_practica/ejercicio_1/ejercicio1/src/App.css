@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.container{
+    background-color: blue;
+    padding: 20px;
+    width: 100%;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+}
+span{
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(87, 84, 84);
+    color: white;
+}
